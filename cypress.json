@@ -1,0 +1,10 @@
+{
+  "max-http-header-size": 200000,
+  "screenshotOnRunFailure": true,
+  "video": false ,
+  "pageLoadTimeout": 200000 ,
+  "chromeWebSecurity": true,
+  "ignoreTestFiles": [""],
+  "baseUrl": "https://atleta.teste.goatme.app/",
+  "NODE_TLS_REJECT_UNAUTHORIZED": 1
+}

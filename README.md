@@ -1,28 +1,39 @@
 # PROJETO PARA AUTOMAÇÃO DE TESTES DE FRONT-END GOAT ME
-
-### Ferramentas e pré-requisitos
-
-1. Nodejs
+## Pré requisitos
+1. Node
 2. Google Chrome
 3. Cypress
 
-### Clonar o projeto `goat-me` e executar no terminal para rodar o projeto:
-
-* No projeto `goat-me` executar o seguinte comando no terminal:
-
+### Stack de testes
+- Cypress
+## Instalação
+### Clonar o projeto `goat-me` e na pasta do projeto executar os comandos no terminal:
 ### Para que o node instale as dependencias
 
-```
+```bash
 npm i
 ```
-### Para que o node chame o cypress 
+## Execução teste
 
-```
+### Para executar os testes diretamente do terminal
+
+```bash 
 npm run test 
 ```
 
-### Para que o node chame o cypress e abra uma interface para executar os testes em interface
+### Para executar os testes pela interface do cypress
 
-```
-npm run cypress:open
-```
+1) No terminal
+    ```bash
+    npm run cypress:open 
+    ```
+2) Clicar no teste que deseja executar
+3) Aguardar a conclusão
+
+
+
+## Documentações
+
+1) *[Cypress](https://docs.cypress.io/api/table-of-contents)*
+
+2) *[Faker](http://marak.github.io/faker.js/)*
